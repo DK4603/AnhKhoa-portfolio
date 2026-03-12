@@ -1,7 +1,5 @@
 <?php
 
-require_once __DIR__ . '/../app/controllers/HomeController.php';
-
 $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
@@ -15,5 +13,4 @@ switch ($request) {
 
     default:
         echo "404 Not Found";
-        break;
 }
