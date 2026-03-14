@@ -61,6 +61,29 @@
         padding-left: 10px;
     }
 
+    .project {
+        background: #aacec598;
+        padding: 5px 5px 5px 20px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+    .project-link {
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 6px 12px;
+        background: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    .project-link:hover {
+        background: #555;
+    }
+
     ul {
         line-height: 1.8;
     }
@@ -93,31 +116,89 @@
 
         .container {
             padding: 20px;
+            margin: 20px;
         }
 
         .header-box {
             flex-direction: column;
             text-align: center;
-        }
-
-        .header-info {
-            text-align: center;
+            gap: 10px;
         }
 
         .avatar {
-            width: 90px;
-            height: 90px;
+            width: 95px;
+            height: 95px;
         }
 
         .section h2 {
             font-size: 20px;
         }
 
-        .skill .skill-IT {
-            font-size: 12px;
-            padding: 5px 8px;
+        .skill,
+        .skill-IT {
+            font-size: 18px;
+            padding: 5px 9px;
         }
 
+
+        .project {
+            padding: 20px;
+
+        }
+
+        .project ul {
+            padding-left: 20px;
+        }
+
+        .project-link {
+            display: block;
+            width: fit-content;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+
+    }
+
+    @media (max-width: 480px) {
+
+        .container {
+            padding: 18px;
+            margin: 10px;
+        }
+
+        h1 {
+            font-size: 22px;
+        }
+
+        .section h2 {
+            font-size: 18px;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+        }
+
+        ul {
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        .skill,
+        .skill-IT {
+            font-size: 12px;
+            padding: 4px 8px;
+            margin: 4px;
+        }
+
+        .project {
+            padding: 16px;
+        }
+
+        .project-link {
+            padding: 7px 12px;
+            font-size: 12px;
+        }
 
     }
     </style>

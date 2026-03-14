@@ -108,6 +108,40 @@
 
 </div>
 
+<div class="section">
+
+    <h2>Dự Án</h2>
+
+    <div class="project">
+        <p>
+            <b>Hệ Thống Đặt Lịch Khám Bệnh Trực Tuyến</b> | 11/2023 – 12/2024 <br>
+            Full-stack (Personal Project)
+        </p>
+        <p>
+            <b>Mô Tả Dự Án</b><br>
+            Phát triển một ứng dụng web cho phép bệnh nhân đăng ký, đặt lịch khám bệnh với bác sĩ và quản lý lịch trình
+            khám
+            bệnh.<br>
+            <b>Trách Nhiệm</b>
+        <ul>
+            <li>Thiết kế giao diện phản hồi sử dụng:HTML, CSS, Bootstrap 5</li>
+            <li>Phát triển logic phía backend bằng PHP</li>
+            <li>Xây dựng và quản lý cơ sở dữ liệu MySQL cho dữ liệu bệnh nhân và lịch hẹn</li>
+            <li>Triển khai hệ thống đặt lịch và quản lý trạng thái cuộc hẹn</li>
+        </ul>
+        <b>Công nghệ</b><br>
+        HTML, CSS, JavaScript, Bootstrap 5, PHP, MySQL, XAMPP
+        </p>
+
+        <a href="https://demo-link.com" target="_blank" class="project-link">Live Demo</a>
+        <a href="https://github.com/username/project" target="_blank" class="project-link">Source Code</a>
+    </div>
+
+    <div class="project">
+
+    </div>
+
+</div>
 
 <div class="section">
 
